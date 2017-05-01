@@ -1,6 +1,6 @@
 {
   "name": "isic-spoiler",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "isic module to handle messages which contain spoilers!",
   "author": "Christopher Kaster",
   "license": "MIT"

@@ -12,7 +12,7 @@ module.exports = function(bot) {
             return
         }
 
-        let newstr = str.replace(regex, new Array(matches[1].length).join("\\*"))
+        let newstr = str.replace(regex, "\\*\\*\\*\\*\\*\\*\\*\\*")
         let spoiled = str.replace(regex, matches[1])
 
         let id = res.message.id
@@ -27,7 +27,7 @@ module.exports = function(bot) {
             message: spoiled
         })
 
-        res.send(`**Spoiler**: "${newstr}"\n\nIf you want to read this message just write:\n\n!unspoil ${id}`)
+        res.send(`${newstr}\n\nIf you want to read this message just write:\n\n!unspoil ${id}`)
     })
 
     bot.command("unspoil", (res, args) => {
