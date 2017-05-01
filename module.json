@@ -1,0 +1,6 @@
+{
+    "name": "isic-spoiler",
+    "identifier": "github.atomicptr.isic-spoiler",
+    "main": "spoiler.js",
+    "ignoredm": true
+}
